@@ -14,7 +14,7 @@ const User = require("./models/User");
 
 //Routes
 const toughtsRoutes = require("./routes/toughtsRoutes");
-const authRoutes = require("./routes/authRoutes")
+const authRoutes = require("./routes/authRoutes");
 
 //Controller para /
 const ToughtController = require("./controllers/ToughtController");
@@ -37,8 +37,8 @@ app.use(
     }),
     cookie: {
       secure: false,
-      maxAge: 360000,
-      expires: new Date(Date.now() + 360000),
+      maxAge: 3600000,
+      expires: new Date(Date.now() + 3600000),
       httpOnly: true,
     },
   })
@@ -57,7 +57,7 @@ app.use((req, res, next) => {
 
 //Routes
 app.use("/toughts", toughtsRoutes);
-app.use("/", authRoutes)
+app.use("/", authRoutes);
 
 app.get("/", ToughtController.showToughts);
 
