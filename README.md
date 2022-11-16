@@ -6,7 +6,7 @@ Esse projeto permite que o usuário possa escrever aquilo que vem na cabeça, um
 
 ### ❗ Propósito:
 Foi desenvolvido para entender melhor conceitos da arquitetura MVC, e o fluxo que uma aplicação monolítica tem. A aplicação teve algumas funcionalidades essenciais,
-como autentificação de usuário, conexão com o banco de dados usando ORM, os controllers interagindo entre sí, etc.
+como autentificação de usuário, conexão com o banco de dados usando ORM, criptografando a senha, os controllers interagindo entre sí, etc.
 
 ### 🛠 Técnologias utilizadas:
 
