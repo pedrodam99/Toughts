@@ -1,5 +1,5 @@
  
- <h1 align="center"> Tougths - para quem gosta de pensa!</h1>
+ <h1 align="center"> Tougths - para quem gosta de pensar!</h1>
 
 ## 💡 O que é?
 Esse projeto permite que o usuário possa escrever aquilo que vem na cabeça, uma espécie de Twitter. <br>
